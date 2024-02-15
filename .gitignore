@@ -1,0 +1,49 @@
+# Temporary files
+*~.nib
+
+# Visual Paradigm
+*.working
+*.vux
+
+# Xcode
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+.gitignore...skipping...
+# Invisibles
+.DS_Store
+*.swp
+.Trashes
+
+# Visual Paradigm
+*.working
+*.vux
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+
+# fastlane
+fastlane/report.xml
+fastlane/screenshots
