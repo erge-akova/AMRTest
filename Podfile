@@ -8,6 +8,6 @@ target 'AMRTest' do
   # Pods for AMRTest
 
   pod 'AMRSDK', '~> 1.5'
-  pod 'AMRAdapterYandex', '~>6.1'
+  pod 'AMRAdapterYandex'
 
 end

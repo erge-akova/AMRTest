@@ -1,17 +1,67 @@
 PODS:
-  - AdmostFairAds (1.3.0)
-  - AMRAdapterYandex (6.3.0.0):
+  - AdmostFairAds (1.3.1)
+  - AMRAdapterYandex (7.0.1.0):
     - AMRSDK (~> 1.5.38)
-    - YandexMobileAds (= 6.3.0)
-  - AMRSDK (1.5.42):
-    - AMRSDK/AFA (= 1.5.42)
-    - AMRSDK/Core (= 1.5.42)
+    - YandexMobileAds (= 7.0.1)
+  - AMRSDK (1.5.45):
+    - AMRSDK/AFA (= 1.5.45)
+    - AMRSDK/Core (= 1.5.45)
     - KokteylLog (~> 1.1.1)
-  - AMRSDK/AFA (1.5.42):
+  - AMRSDK/AFA (1.5.45):
     - AdmostFairAds (~> 1.3.0)
     - KokteylLog (~> 1.1.1)
-  - AMRSDK/Core (1.5.42):
+  - AMRSDK/Core (1.5.45):
     - KokteylLog (~> 1.1.1)
+  - AppMetrica_FMDB (5.3.0)
+  - AppMetrica_Protobuf (5.3.0)
+  - AppMetricaCore (5.3.0):
+    - AppMetrica_FMDB (= 5.3.0)
+    - AppMetrica_Protobuf (= 5.3.0)
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaEncodingUtils (= 5.3.0)
+    - AppMetricaHostState (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+    - AppMetricaNetwork (= 5.3.0)
+    - AppMetricaPlatform (= 5.3.0)
+    - AppMetricaProtobufUtils (= 5.3.0)
+    - AppMetricaStorageUtils (= 5.3.0)
+  - AppMetricaCoreExtension (5.3.0):
+    - AppMetricaCore (= 5.3.0)
+    - AppMetricaStorageUtils (= 5.3.0)
+  - AppMetricaCoreUtils (5.3.0):
+    - AppMetricaLog (= 5.3.0)
+  - AppMetricaCrashes (5.3.0):
+    - AppMetricaCore (= 5.3.0)
+    - AppMetricaCoreExtension (= 5.3.0)
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaEncodingUtils (= 5.3.0)
+    - AppMetricaHostState (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+    - AppMetricaPlatform (= 5.3.0)
+    - AppMetricaProtobufUtils (= 5.3.0)
+    - AppMetricaStorageUtils (= 5.3.0)
+    - KSCrash/Recording (~> 1.17.0)
+    - KSCrash/Recording/Tools
+  - AppMetricaEncodingUtils (5.3.0):
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+    - AppMetricaPlatform (= 5.3.0)
+  - AppMetricaHostState (5.3.0):
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+  - AppMetricaLog (5.3.0)
+  - AppMetricaNetwork (5.3.0):
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+    - AppMetricaPlatform (= 5.3.0)
+  - AppMetricaPlatform (5.3.0):
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
+  - AppMetricaProtobufUtils (5.3.0):
+    - AppMetrica_Protobuf (= 5.3.0)
+  - AppMetricaStorageUtils (5.3.0):
+    - AppMetricaCoreUtils (= 5.3.0)
+    - AppMetricaLog (= 5.3.0)
   - DivKit (28.13.0):
     - DivKit_LayoutKit (= 28.13.0)
     - DivKit_Serialization (= 28.13.0)
@@ -27,6 +77,9 @@ PODS:
   - DivKit_Serialization (28.13.0):
     - VGSLCommonCore (~> 2.4)
   - KokteylLog (1.1.1)
+  - KSCrash/Recording (1.17.0):
+    - KSCrash/Recording/Tools (= 1.17.0)
+  - KSCrash/Recording/Tools (1.17.0)
   - VGSL_Fundamentals (2.4.1):
     - VGSL_Fundamentals_Tiny (= 2.4.1)
   - VGSL_Fundamentals_Tiny (2.4.1)
@@ -42,23 +95,13 @@ PODS:
     - VGSLBase (= 2.4.1)
   - VGSLNetworking (2.4.1):
     - VGSLBase (= 2.4.1)
-  - YandexMobileAds (6.3.0):
+  - YandexMobileAds (7.0.1):
+    - AppMetricaCore (< 6.0.0, >= 5.0.0)
+    - AppMetricaCrashes (< 6.0.0, >= 5.0.0)
     - DivKit (= 28.13.0)
-    - YandexMobileAds/Static (= 6.3.0)
-  - YandexMobileAds/Static (6.3.0):
-    - DivKit (= 28.13.0)
-    - YandexMobileMetrica (< 5.0.0, >= 4.0.0)
-  - YandexMobileMetrica (4.5.2):
-    - YandexMobileMetrica/Static (= 4.5.2)
-  - YandexMobileMetrica/Static (4.5.2):
-    - YandexMobileMetrica/Static/Core (= 4.5.2)
-    - YandexMobileMetrica/Static/Crashes (= 4.5.2)
-  - YandexMobileMetrica/Static/Core (4.5.2)
-  - YandexMobileMetrica/Static/Crashes (4.5.2):
-    - YandexMobileMetrica/Static/Core
 
 DEPENDENCIES:
-  - AMRAdapterYandex (~> 6.1)
+  - AMRAdapterYandex
   - AMRSDK (~> 1.5)
 
 SPEC REPOS:
@@ -66,11 +109,25 @@ SPEC REPOS:
     - AdmostFairAds
     - AMRAdapterYandex
     - AMRSDK
+    - AppMetrica_FMDB
+    - AppMetrica_Protobuf
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaCrashes
+    - AppMetricaEncodingUtils
+    - AppMetricaHostState
+    - AppMetricaLog
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
     - DivKit
     - DivKit_LayoutKit
     - DivKit_LayoutKitInterface
     - DivKit_Serialization
     - KokteylLog
+    - KSCrash
     - VGSL_Fundamentals
     - VGSL_Fundamentals_Tiny
     - VGSLBase
@@ -79,17 +136,30 @@ SPEC REPOS:
     - VGSLCommonCore
     - VGSLNetworking
     - YandexMobileAds
-    - YandexMobileMetrica
 
 SPEC CHECKSUMS:
-  AdmostFairAds: 48b211144afdd87b27457deeaaf3e0fd796bf277
-  AMRAdapterYandex: a3ebc877c0a572ad7fb64781f56254710e4501ee
-  AMRSDK: 6f7bff52d145e4ef3def10603c38d44b91ba37a4
+  AdmostFairAds: f2cfad5ad9d488b4f45db94fc41b7ae8ed28dfa9
+  AMRAdapterYandex: 4ea0c9c848568717a4b0618a4ea811132e4264df
+  AMRSDK: da0117311b364537077edcc4b9d9786a21213133
+  AppMetrica_FMDB: ed2835a272b919876050c5d5a854937ee23d1ca4
+  AppMetrica_Protobuf: 34a5aee1c6d02728d2bd7729e1061326ef13f2a8
+  AppMetricaCore: 3088ec2ba737b75737b50f7a5d700f1cf79e10bd
+  AppMetricaCoreExtension: e88f047d48477897d8a545bb5a670beda654d735
+  AppMetricaCoreUtils: 1f63931c96629c4c09044d8d3dc9480dc414eb4c
+  AppMetricaCrashes: 39fc73454c653f708c78096dba13dfd7b02eea92
+  AppMetricaEncodingUtils: 4d0fa5a82a79d3b86d10e5a26a58523a7375e9cb
+  AppMetricaHostState: 401b8a7653ea026e7a22e3c88950c0657e4d7d4f
+  AppMetricaLog: 7789d80527d9a7dc07376d000915109da38e9296
+  AppMetricaNetwork: 0b4fa396c28c34442cad5543f319fd5bc8f871a5
+  AppMetricaPlatform: fd828a22eb7e4b5dfb64d2ad237ea7c0e0d9c6a5
+  AppMetricaProtobufUtils: 8fadd92c5266f42e09bbe6cf37914c66b7c0e090
+  AppMetricaStorageUtils: 80442f9928634cecc11d5beb464009b9ebe07cc3
   DivKit: 65af423ea03c32b6ecaa63a64d4a2ea26c217f3b
   DivKit_LayoutKit: 3f88fab9edefb4938b9ccb5359ecbce4e1eeba69
   DivKit_LayoutKitInterface: 90449756ba956a7fbf3b168c01f7a0b7fc6a9de0
   DivKit_Serialization: 1b536e30c49163548bb62120320097c8ab41936d
   KokteylLog: bfac8bacdadc0723364e0617cdeb99cedae2a69e
+  KSCrash: 593ec373759e4c1bce381421a627326a20d2dc66
   VGSL_Fundamentals: 4a965a687c76a5a435d7aaeb6b7182e82408bf4c
   VGSL_Fundamentals_Tiny: feab274b20c5838fbe09b887db0f6cfa28e26a1c
   VGSLBase: 37b95dd4ea137f73e8f9a8bd8ec474d8b4d75a68
@@ -97,9 +167,8 @@ SPEC CHECKSUMS:
   VGSLBaseUI: 62f147155e7b7049a32a30ac87b5bd8b83e636c5
   VGSLCommonCore: dd33088af6633d1c09f0c9bb8027920b99e2e0c8
   VGSLNetworking: e12d616b447522bf524c689d28f55cfbb20473cd
-  YandexMobileAds: 790d7b35909e9c2ed55d56416026c6459943e358
-  YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
+  YandexMobileAds: 30f8aeaa4f608696e28b3b449b636eca76792394
 
-PODFILE CHECKSUM: af948b7f82f2e48361c8d05225a4de793d6e8f4f
+PODFILE CHECKSUM: af452d07fa89a727fb04e0dc01e0a7616211465a
 
 COCOAPODS: 1.14.3
