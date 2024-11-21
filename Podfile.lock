@@ -1,174 +1,61 @@
 PODS:
   - AdmostFairAds (1.3.1)
-  - AMRAdapterYandex (7.0.1.0):
-    - AMRSDK (~> 1.5.38)
-    - YandexMobileAds (= 7.0.1)
-  - AMRSDK (1.5.45):
-    - AMRSDK/AFA (= 1.5.45)
-    - AMRSDK/Core (= 1.5.45)
+  - AMRAdapterAdmob (11.8.0.0):
+    - AMRSDK (~> 1.5.42)
+    - Google-Mobile-Ads-SDK (= 11.8.0)
+  - AMRAdapterFacebook (6.15.2.0):
+    - AMRSDK (~> 1.5.25)
+    - FBAudienceNetwork (= 6.15.2)
+  - AMRAdapterUnity (4.12.2.0):
+    - AMRSDK (~> 1.5.7)
+    - UnityAds (= 4.12.2)
+  - AMRSDK (1.5.48):
+    - AMRSDK/AFA (= 1.5.48)
+    - AMRSDK/Core (= 1.5.48)
     - KokteylLog (~> 1.1.1)
-  - AMRSDK/AFA (1.5.45):
+  - AMRSDK/AFA (1.5.48):
     - AdmostFairAds (~> 1.3.0)
     - KokteylLog (~> 1.1.1)
-  - AMRSDK/Core (1.5.45):
+  - AMRSDK/Core (1.5.48):
     - KokteylLog (~> 1.1.1)
-  - AppMetrica_FMDB (5.3.0)
-  - AppMetrica_Protobuf (5.3.0)
-  - AppMetricaCore (5.3.0):
-    - AppMetrica_FMDB (= 5.3.0)
-    - AppMetrica_Protobuf (= 5.3.0)
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaEncodingUtils (= 5.3.0)
-    - AppMetricaHostState (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-    - AppMetricaNetwork (= 5.3.0)
-    - AppMetricaPlatform (= 5.3.0)
-    - AppMetricaProtobufUtils (= 5.3.0)
-    - AppMetricaStorageUtils (= 5.3.0)
-  - AppMetricaCoreExtension (5.3.0):
-    - AppMetricaCore (= 5.3.0)
-    - AppMetricaStorageUtils (= 5.3.0)
-  - AppMetricaCoreUtils (5.3.0):
-    - AppMetricaLog (= 5.3.0)
-  - AppMetricaCrashes (5.3.0):
-    - AppMetricaCore (= 5.3.0)
-    - AppMetricaCoreExtension (= 5.3.0)
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaEncodingUtils (= 5.3.0)
-    - AppMetricaHostState (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-    - AppMetricaPlatform (= 5.3.0)
-    - AppMetricaProtobufUtils (= 5.3.0)
-    - AppMetricaStorageUtils (= 5.3.0)
-    - KSCrash/Recording (~> 1.17.0)
-    - KSCrash/Recording/Tools
-  - AppMetricaEncodingUtils (5.3.0):
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-    - AppMetricaPlatform (= 5.3.0)
-  - AppMetricaHostState (5.3.0):
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-  - AppMetricaLog (5.3.0)
-  - AppMetricaNetwork (5.3.0):
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-    - AppMetricaPlatform (= 5.3.0)
-  - AppMetricaPlatform (5.3.0):
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-  - AppMetricaProtobufUtils (5.3.0):
-    - AppMetrica_Protobuf (= 5.3.0)
-  - AppMetricaStorageUtils (5.3.0):
-    - AppMetricaCoreUtils (= 5.3.0)
-    - AppMetricaLog (= 5.3.0)
-  - DivKit (28.13.0):
-    - DivKit_LayoutKit (= 28.13.0)
-    - DivKit_Serialization (= 28.13.0)
-    - VGSLCommonCore (~> 2.4)
-    - VGSLNetworking (~> 2.4)
-  - DivKit_LayoutKit (28.13.0):
-    - DivKit_LayoutKitInterface (= 28.13.0)
-    - VGSLCommonCore (~> 2.4)
-  - DivKit_LayoutKitInterface (28.13.0):
-    - VGSLBase (~> 2.4)
-    - VGSLBaseTiny (~> 2.4)
-    - VGSLBaseUI (~> 2.4)
-  - DivKit_Serialization (28.13.0):
-    - VGSLCommonCore (~> 2.4)
+  - FBAudienceNetwork (6.15.2)
+  - Google-Mobile-Ads-SDK (11.8.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (2.6.0)
   - KokteylLog (1.1.1)
-  - KSCrash/Recording (1.17.0):
-    - KSCrash/Recording/Tools (= 1.17.0)
-  - KSCrash/Recording/Tools (1.17.0)
-  - VGSL_Fundamentals (2.4.1):
-    - VGSL_Fundamentals_Tiny (= 2.4.1)
-  - VGSL_Fundamentals_Tiny (2.4.1)
-  - VGSLBase (2.4.1):
-    - VGSL_Fundamentals (= 2.4.1)
-    - VGSLBaseTiny (= 2.4.1)
-    - VGSLBaseUI (= 2.4.1)
-  - VGSLBaseTiny (2.4.1):
-    - VGSL_Fundamentals_Tiny (= 2.4.1)
-  - VGSLBaseUI (2.4.1):
-    - VGSLBaseTiny (= 2.4.1)
-  - VGSLCommonCore (2.4.1):
-    - VGSLBase (= 2.4.1)
-  - VGSLNetworking (2.4.1):
-    - VGSLBase (= 2.4.1)
-  - YandexMobileAds (7.0.1):
-    - AppMetricaCore (< 6.0.0, >= 5.0.0)
-    - AppMetricaCrashes (< 6.0.0, >= 5.0.0)
-    - DivKit (= 28.13.0)
+  - UnityAds (4.12.2)
 
 DEPENDENCIES:
-  - AMRAdapterYandex
+  - AMRAdapterAdmob (~> 11.8)
+  - AMRAdapterFacebook (~> 6.15)
+  - AMRAdapterUnity (~> 4.12)
   - AMRSDK (~> 1.5)
 
 SPEC REPOS:
   trunk:
     - AdmostFairAds
-    - AMRAdapterYandex
+    - AMRAdapterAdmob
+    - AMRAdapterFacebook
+    - AMRAdapterUnity
     - AMRSDK
-    - AppMetrica_FMDB
-    - AppMetrica_Protobuf
-    - AppMetricaCore
-    - AppMetricaCoreExtension
-    - AppMetricaCoreUtils
-    - AppMetricaCrashes
-    - AppMetricaEncodingUtils
-    - AppMetricaHostState
-    - AppMetricaLog
-    - AppMetricaNetwork
-    - AppMetricaPlatform
-    - AppMetricaProtobufUtils
-    - AppMetricaStorageUtils
-    - DivKit
-    - DivKit_LayoutKit
-    - DivKit_LayoutKitInterface
-    - DivKit_Serialization
+    - FBAudienceNetwork
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
     - KokteylLog
-    - KSCrash
-    - VGSL_Fundamentals
-    - VGSL_Fundamentals_Tiny
-    - VGSLBase
-    - VGSLBaseTiny
-    - VGSLBaseUI
-    - VGSLCommonCore
-    - VGSLNetworking
-    - YandexMobileAds
+    - UnityAds
 
 SPEC CHECKSUMS:
   AdmostFairAds: f2cfad5ad9d488b4f45db94fc41b7ae8ed28dfa9
-  AMRAdapterYandex: 4ea0c9c848568717a4b0618a4ea811132e4264df
-  AMRSDK: da0117311b364537077edcc4b9d9786a21213133
-  AppMetrica_FMDB: ed2835a272b919876050c5d5a854937ee23d1ca4
-  AppMetrica_Protobuf: 34a5aee1c6d02728d2bd7729e1061326ef13f2a8
-  AppMetricaCore: 3088ec2ba737b75737b50f7a5d700f1cf79e10bd
-  AppMetricaCoreExtension: e88f047d48477897d8a545bb5a670beda654d735
-  AppMetricaCoreUtils: 1f63931c96629c4c09044d8d3dc9480dc414eb4c
-  AppMetricaCrashes: 39fc73454c653f708c78096dba13dfd7b02eea92
-  AppMetricaEncodingUtils: 4d0fa5a82a79d3b86d10e5a26a58523a7375e9cb
-  AppMetricaHostState: 401b8a7653ea026e7a22e3c88950c0657e4d7d4f
-  AppMetricaLog: 7789d80527d9a7dc07376d000915109da38e9296
-  AppMetricaNetwork: 0b4fa396c28c34442cad5543f319fd5bc8f871a5
-  AppMetricaPlatform: fd828a22eb7e4b5dfb64d2ad237ea7c0e0d9c6a5
-  AppMetricaProtobufUtils: 8fadd92c5266f42e09bbe6cf37914c66b7c0e090
-  AppMetricaStorageUtils: 80442f9928634cecc11d5beb464009b9ebe07cc3
-  DivKit: 65af423ea03c32b6ecaa63a64d4a2ea26c217f3b
-  DivKit_LayoutKit: 3f88fab9edefb4938b9ccb5359ecbce4e1eeba69
-  DivKit_LayoutKitInterface: 90449756ba956a7fbf3b168c01f7a0b7fc6a9de0
-  DivKit_Serialization: 1b536e30c49163548bb62120320097c8ab41936d
+  AMRAdapterAdmob: 0e4612090e661c8d546acba91d826252f839b3a6
+  AMRAdapterFacebook: 2fa4b1e7e351fa61d12f187bb23b65409f09dc56
+  AMRAdapterUnity: ab6e5c625eb06448341277b9d388dfb99423ac63
+  AMRSDK: 75378ed6973407a92dc8bb4614b31855c89c644b
+  FBAudienceNetwork: 2457a89b45e2596241fd81b0c2fd8cb6f6053869
+  Google-Mobile-Ads-SDK: c1c53687b572122c5b0bdaf354335bbf40fd81ef
+  GoogleUserMessagingPlatform: 0c3a08353e53ce8c2feab7addd0b652cde522450
   KokteylLog: bfac8bacdadc0723364e0617cdeb99cedae2a69e
-  KSCrash: 593ec373759e4c1bce381421a627326a20d2dc66
-  VGSL_Fundamentals: 4a965a687c76a5a435d7aaeb6b7182e82408bf4c
-  VGSL_Fundamentals_Tiny: feab274b20c5838fbe09b887db0f6cfa28e26a1c
-  VGSLBase: 37b95dd4ea137f73e8f9a8bd8ec474d8b4d75a68
-  VGSLBaseTiny: 0a0a4992a348184e8580cf73efa8eb373d750f6b
-  VGSLBaseUI: 62f147155e7b7049a32a30ac87b5bd8b83e636c5
-  VGSLCommonCore: dd33088af6633d1c09f0c9bb8027920b99e2e0c8
-  VGSLNetworking: e12d616b447522bf524c689d28f55cfbb20473cd
-  YandexMobileAds: 30f8aeaa4f608696e28b3b449b636eca76792394
+  UnityAds: f746f4baac748fcf8b70f0d70c816f6316808d3e
 
-PODFILE CHECKSUM: af452d07fa89a727fb04e0dc01e0a7616211465a
+PODFILE CHECKSUM: 2415cf05404305a57cdb8719c702566742295ef7
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2

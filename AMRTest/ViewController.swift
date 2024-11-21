@@ -8,6 +8,7 @@
 import UIKit
 import AMRSDK
 
+
 class ViewController: UIViewController, AMRBannerDelegate {
 
     @IBOutlet var native250: UIView!
@@ -17,9 +18,10 @@ class ViewController: UIViewController, AMRBannerDelegate {
         super.viewDidLoad()
         native = AMRBanner.init(forZoneId:"ccdea0b0-3629-49b2-a205-c72627d8229a")
         native.delegate = self
-        native.customNativeSize = CGSize(width: 300.0, height: 250.0)
-        native.customeNativeXibName = "AMRNativeAdBaseViewAlt250"
+//        native.customNativeSize = CGSize(width: 300.0, height: 250.0)
+//        native.customeNativeXibName = "AMRNativeAdBaseViewAlt250"
         native.load()   
+        
     }
     
     @IBAction func load(_ sender: Any) {

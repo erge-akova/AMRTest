@@ -13,7 +13,7 @@
 		037912BB2ADFCD6D00E49EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037912BA2ADFCD6D00E49EAB /* Assets.xcassets */; };
 		037912BE2ADFCD6D00E49EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037912BC2ADFCD6D00E49EAB /* LaunchScreen.storyboard */; };
 		039785E32AE818A500D32CBC /* AMRNativeAdBaseViewAlt250.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039785E22AE818A500D32CBC /* AMRNativeAdBaseViewAlt250.xib */; };
-		B4EAFFC28C7D6CA17A40E77F /* Pods_AMRTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97975DB48650649E15509014 /* Pods_AMRTest.framework */; };
+		376B240B6E8688EC85AAC239 /* Pods_AMRTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D459187EF39BC431A66D61B /* Pods_AMRTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		037912BD2ADFCD6D00E49EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		037912BF2ADFCD6D00E49EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039785E22AE818A500D32CBC /* AMRNativeAdBaseViewAlt250.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMRNativeAdBaseViewAlt250.xib; sourceTree = "<group>"; };
-		76CDB65CE8A41780727FE10D /* Pods-AMRTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRTest.debug.xcconfig"; path = "Target Support Files/Pods-AMRTest/Pods-AMRTest.debug.xcconfig"; sourceTree = "<group>"; };
-		97975DB48650649E15509014 /* Pods_AMRTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMRTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7EA2D4CF999034F84F4B3B6 /* Pods-AMRTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRTest.release.xcconfig"; path = "Target Support Files/Pods-AMRTest/Pods-AMRTest.release.xcconfig"; sourceTree = "<group>"; };
+		81357D89C12B975A45FBE2A0 /* Pods-AMRTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRTest.debug.xcconfig"; path = "Target Support Files/Pods-AMRTest/Pods-AMRTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9D459187EF39BC431A66D61B /* Pods_AMRTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMRTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A95A8FF4C4160B6E056EF4 /* Pods-AMRTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMRTest.release.xcconfig"; path = "Target Support Files/Pods-AMRTest/Pods-AMRTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EAFFC28C7D6CA17A40E77F /* Pods_AMRTest.framework in Frameworks */,
+				376B240B6E8688EC85AAC239 /* Pods_AMRTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 				037912B02ADFCD6D00E49EAB /* AMRTest */,
 				037912AF2ADFCD6D00E49EAB /* Products */,
 				8FE9BA113F8E430A70935291 /* Pods */,
-				F25B9000848D9CC6E9E1B0DF /* Frameworks */,
+				6B1906EB01DB06CF703D0B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +74,21 @@
 			path = AMRTest;
 			sourceTree = "<group>";
 		};
+		6B1906EB01DB06CF703D0B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D459187EF39BC431A66D61B /* Pods_AMRTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FE9BA113F8E430A70935291 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76CDB65CE8A41780727FE10D /* Pods-AMRTest.debug.xcconfig */,
-				B7EA2D4CF999034F84F4B3B6 /* Pods-AMRTest.release.xcconfig */,
+				81357D89C12B975A45FBE2A0 /* Pods-AMRTest.debug.xcconfig */,
+				D8A95A8FF4C4160B6E056EF4 /* Pods-AMRTest.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F25B9000848D9CC6E9E1B0DF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				97975DB48650649E15509014 /* Pods_AMRTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,12 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 037912C22ADFCD6D00E49EAB /* Build configuration list for PBXNativeTarget "AMRTest" */;
 			buildPhases = (
-				172A33233A6BA70FDFE2F069 /* [CP] Check Pods Manifest.lock */,
+				10B31344E365ED4F5CEC0A67 /* [CP] Check Pods Manifest.lock */,
 				037912AA2ADFCD6D00E49EAB /* Sources */,
 				037912AB2ADFCD6D00E49EAB /* Frameworks */,
 				037912AC2ADFCD6D00E49EAB /* Resources */,
-				DDD4CB7B0747378050963BE9 /* [CP] Copy Pods Resources */,
-				C1AA7FA2A0DF2B4A5385F0B3 /* [CP] Embed Pods Frameworks */,
+				42E8A1D86C747938C7F00120 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +161,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		172A33233A6BA70FDFE2F069 /* [CP] Check Pods Manifest.lock */ = {
+		10B31344E365ED4F5CEC0A67 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,24 +183,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1AA7FA2A0DF2B4A5385F0B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AMRTest/Pods-AMRTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AMRTest/Pods-AMRTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMRTest/Pods-AMRTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDD4CB7B0747378050963BE9 /* [CP] Copy Pods Resources */ = {
+		42E8A1D86C747938C7F00120 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,7 +355,7 @@
 		};
 		037912C32ADFCD6D00E49EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CDB65CE8A41780727FE10D /* Pods-AMRTest.debug.xcconfig */;
+			baseConfigurationReference = 81357D89C12B975A45FBE2A0 /* Pods-AMRTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,7 +463,7 @@
 		};
 		037912C42ADFCD6D00E49EAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7EA2D4CF999034F84F4B3B6 /* Pods-AMRTest.release.xcconfig */;
+			baseConfigurationReference = D8A95A8FF4C4160B6E056EF4 /* Pods-AMRTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
